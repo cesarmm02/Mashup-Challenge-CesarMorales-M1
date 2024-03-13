@@ -1,0 +1,55 @@
+ /* ORIGINAL TASK PUPILS STARTED WITH
+Full credit to code.org for task */
+img{
+  border: 3px solid floralwhite;
+  border-style: dashed;
+}
+#fish {
+  width: 150px;
+  height: 150px;
+}
+#pup, #turt {
+  width: 170px;
+  height: 150px;
+}
+
+
+/* Changed many aspects of the tages I added */
+body{
+  background-color: powderblue;
+  font-family: Akaya Kanadaka ;
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+}
+h1, h2, h3{
+  color: lightgoldenrodyellow;
+  text-shadow: 2px 2px darkblue;
+}
+p{
+  color: lightcoral;
+  font-family: germania one, cursive;
+font-size: 1.5em;
+}
+.list{
+  border: 3px solid floralwhite;
+  border-style: dashed;
+  display: block;
+  margin-left: 20px;
+  padding: 15px;
+  float: left;
+  width: 30%;
+  height: 500px;
+  background-color: powderblue;
+  transition: border-color 1s;
+}
+.list:hover {
+  background-color: lightblue;
+  border-color: #7eacbe;
+}
